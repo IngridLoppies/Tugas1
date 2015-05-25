@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jquery Sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+</head>
+<body>	
+	<div data-role="page" id="main">
+		<div data-role="header" data-position="fixed">
+			<a href="" data-icon="home">Home</a>
+			<h1>Info Fakultas di UKSW</h1>
+			<a href="#secondPage" data-icon="info">About</a>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true" data-inset= "true">
+				<li style="padding:2pt">
+					<a href="#fti"> 
+						<img src="img/fti.png"/>
+						<h4>Fakultas Teknologi Informasi</h4>
+						<p>Informasi Tentang Fakultas FTI</p>
+						<span class="ui-li-count">15</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#feb"> 
+						<img src="img/feb.jpg"/>
+						<h4>Fakultas Ekonomika dan Bisnis</h4>
+						<p>Informasi Tentang Fakultas FEB</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#fbs"> 
+						<img src="img/fbs.jpeg"/>
+						<h4>Fakultas Bahasa dan Sastra</h4>
+						<p>Informasi Tentang Fakultas FBS</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/fsp.jpeg"/>
+						<h4>Fakultas Seni Pertunjukan</h4>
+						<p>Informasi Tentang Fakultas FSP</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/ftek.jpeg"/>
+						<h4>Fakultas Teknik Elektro dan Komputer</h4>
+						<p>Informasi Tentang Fakultas FTEK</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<h4>FTI &copy; 2015</h4>
+		</div>
+	</div>
+	
+	<div data-role="page" id="secondPage" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<p>
+				Ini halaman ke dua
+			</p>			
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="fti" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<p>
+				Tingginya kebutuhan informasi pada setiap aspek kehidupan manusia menyebabkan permintaan terhadap tenaga ahli yang handal dan memiliki kemampuan dalam bidang teknologi informasi menjadi penting dan bersifat mendesak. Hal inilah yang menjadi salah satu pendorong dibukanya Program Studi Teknik Informatika, Program Studi Sistem Informasi, Program Studi Desain Komunikasi Visual, dan Program Studi Pendidikan Teknik Informatika dan Komputer di bawah Fakultas Teknologi Informasi Universitas Kristen Satya Wacana Salatiga.
+
+Selain program sarjana, di Fakultas Teknologi Informasi terdapat program Diploma dan Pascasarjana (Magister). 
+			</p>
+			
+			<p> 
+			Pada program Diploma terdapat Program Studi: Diploma 3 Teknik Informatika, Diploma 3 Public Relations, dan Diploma 3 Usaha Perjalanan Wisata. Pada program Pascasarjana terdapat Program Studi Magister Sistem Informasi.
+
+Sebagai bentuk kontribusi terhadap Pembangunan Nasional khususnya dalam penyediaan tenaga kerja dalam bidang teknologi informasi maka dibangun sistem dan kurikulum pembelajaran yang kompetitif dan memenuhi kriteria baik dari sisi akademis maupun industri.
+			</p>
+			
+			<p>
+Meskipun kurikulum pembelajaran akan terus dikembangkan sesuai dengan perkembangan teknologi informasi, namun mahasiswa tetap harus dibekali dengan penguasaan ilmu dasar seperti ilmu komputer dan informatika. Berdasarkan penguasaan keilmuan tersebut diharapkan mahasiswa dapat mengembangkan secara mandiri melalui pengalaman dan proyek-proyek.
+
+Satu bentuk mekanisme pembelajaran yang saat ini dinilai masih relevan dengan peningkatan kemampuan keahlian mahasiswa secara mandiri adalah melalui penugasan penyusunan skripsi. Dengan penugasan skripsi mahasiswa dituntut mampu mengenali permasalahan, melakukan analisa, dan menyelesaikan permasalahan yang ada berdasarkan metode ilmiah.
+			</p>			
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		
+		<div data-role="page" id="feb" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			
+			<p>Visi Fakultas Ekonomika dan Bisnis UKSW</p>
+<p>Menjadi Fakultas yang terkemuka di kawasan ASEAN pada tahun 2022 </p>
+			
+			<p>Misi Fakultas Ekonomika dan Bisnis UKSW</p>
+<p>1. Menyediakan lingkungan pembelajaran yang kondusif untuk mem-bentuk lulusan di bidang ekonomi dan 
+bisnis yang memiliki keunggulan kompetitif pada level nasional dan internasional.</p>
+ 
+<p>2. Melaksanakan penelitian dan pengabdian masyarakat yang memiliki reputasi nasional dan 
+internasional serta bermanfaat bagi pengem-bangan ilmu dan masyarakat.</p>
+			
+			<p>Tujuan</p>
+		
+<p>1. Menghasilkan pemimpin masa depan yang:</p>
+<p>* Memiliki kemampuan akademik ditandai dengan penguasaan teori ekonomi dan bisnis, 
+kemampuan  analitik yang didukung penguasaan metode keilmuan serta memiliki kemampuan praktik yang memadai.</p>
+<p>* Memiliki soft skill, pemahaman lintas budaya, kompetensi bahasa internasional, danpenguasaan teknologi informasi.</p>
+<p>* Berkarakter sebagai pembelajar mandiri yg kritis dan memiliki integritas.</p>
+<p>* Mampu mengelola perubahan secara kreatif dan realistis.</p>
+ 
+<p>2. Menghasilkan karya ilmiah bermutu di bidang ekonomi dan bisnis.</p>
+ 
+<p>3. Menghasilkan gagasan dan solusi manajerial bagi kemajuan masyarakat.</p>
+
+			</p>			
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="fbs" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+		
+		<p> Do you want to be fluent in English? Or you want to be an English teacher? Maybe, what you want is just to get a better job after you graduate from the faculty. 
+	Well you can get all of those things in the Faculty of Language and Literature because we have the right courses for you. Our faculty has its vision and mission.</p>
+	
+		<p> Vision and mission are what we hope our faculty and our students to become. In general, here are the vision and mission of our faculty.</p>
+		
+		<p>Vision</p>
+		<p>To become an English language educational program which emphasizes academic excellence, creativity, and a high esteem for Christian values by 2015</p>
+		
+		<p>Mission</p>
+		<p>To carry out technological and English knowledge-based teaching and education</p>
+		<p>To develop research in the field of English language education along with disseminate the results through various academic forums</p>
+		<p>To serve society through various cooperative efforts and relevant activities related to English language teaching and education</p>
+
+		<p>Goals</p>
+		<p> The English Language Educational Study Program of the Language and Literature Faculty strives to produce English language graduates who are able:</p>
+		<p>To carry out the education and teaching of English language with the newest technology-based approaches,</p>
+		<p>To produce research and publications in English language at regional, national, and international levels,</p>
+		<p>To serve society in English language education,</p>
+		<p>To actualize Christian values and develop professionalism in their occupations</p>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	</div>
+	
+</body>
+</html>
